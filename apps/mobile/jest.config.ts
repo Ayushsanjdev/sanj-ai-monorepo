@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: '@my-fullstack-app/mobile',
+  displayName: '@sanj-ai-monorepo/mobile',
   resolver: require.resolve('./jest.resolver.js'),
   preset: 'jest-expo',
   moduleFileExtensions: ['ts', 'js', 'html', 'tsx', 'jsx'],

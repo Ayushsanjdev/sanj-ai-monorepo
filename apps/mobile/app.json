@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "Mobile",
-    "slug": "@my-fullstack-app/mobile",
+    "slug": "@sanj-ai-monorepo/mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "@my-fullstack-app/mobile",
+    "scheme": "@sanj-ai-monorepo/mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {

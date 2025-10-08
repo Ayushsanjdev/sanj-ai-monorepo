@@ -331,6 +331,8 @@ importers:
 
   apps/web-e2e: {}
 
+  libs/types: {}
+
 packages:
 
   '@0no-co/graphql.web@1.2.0':

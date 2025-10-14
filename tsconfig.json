@@ -4,19 +4,19 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/api-e2e"
-    },
-    {
       "path": "./apps/api"
-    },
-    {
-      "path": "./apps/web-e2e"
     },
     {
       "path": "./apps/web"
     },
     {
       "path": "./apps/mobile"
+    },
+    {
+      "path": "./libs/types"
+    },
+    {
+      "path": "./interfaces/user"
     }
   ]
 }

@@ -20,6 +20,12 @@
     },
     {
       "path": "./libs/types"
+    },
+    {
+      "path": "./interfaces/user"
+    },
+    {
+      "path": "./apps/web-e2e"
     }
   ]
 }

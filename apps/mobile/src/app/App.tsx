@@ -1,22 +1,18 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import {
   StyleSheet,
   ScrollView,
   View,
   Text,
   StatusBar,
-  TouchableOpacity,
-  Linking,
 } from 'react-native';
-import Svg, { G, Path } from 'react-native-svg';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 export const App = () => {
-  const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
   const scrollViewRef = useRef<null | ScrollView>(null);
 
   return (
-    <>
+    <SafeAreaProvider>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView
         style={{
@@ -42,7 +38,7 @@ export const App = () => {
           </View>
         </ScrollView>
       </SafeAreaView>
-    </>
+    </SafeAreaProvider>
   );
 };
 const styles = StyleSheet.create({

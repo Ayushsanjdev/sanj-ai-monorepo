@@ -61,3 +61,7 @@ npm-debug.*
 *.orig.*
 web-build/
 cache/
+
+# Next.js
+.next
+out
